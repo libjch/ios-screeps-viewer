@@ -1,0 +1,423 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A4EDADE31DD240E60048BCBF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4EDADE21DD240E60048BCBF /* AppDelegate.swift */; };
+		A4EDADE51DD240E60048BCBF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4EDADE41DD240E60048BCBF /* ViewController.swift */; };
+		A4EDADE81DD240E60048BCBF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4EDADE61DD240E60048BCBF /* Main.storyboard */; };
+		A4EDADEA1DD240E60048BCBF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4EDADE91DD240E60048BCBF /* Assets.xcassets */; };
+		A4EDADED1DD240E60048BCBF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4EDADEB1DD240E60048BCBF /* LaunchScreen.storyboard */; };
+		A4EDADF81DD240E60048BCBF /* ScreepsViewerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4EDADF71DD240E60048BCBF /* ScreepsViewerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A4EDADF41DD240E60048BCBF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A4EDADD71DD240E60048BCBF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A4EDADDE1DD240E60048BCBF;
+			remoteInfo = ScreepsViewer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A4EDADDF1DD240E60048BCBF /* ScreepsViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScreepsViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4EDADE21DD240E60048BCBF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A4EDADE41DD240E60048BCBF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A4EDADE71DD240E60048BCBF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A4EDADE91DD240E60048BCBF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A4EDADEC1DD240E60048BCBF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A4EDADEE1DD240E60048BCBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4EDADF31DD240E60048BCBF /* ScreepsViewerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScreepsViewerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4EDADF71DD240E60048BCBF /* ScreepsViewerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreepsViewerUITests.swift; sourceTree = "<group>"; };
+		A4EDADF91DD240E60048BCBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A4EDADDC1DD240E60048BCBF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4EDADF01DD240E60048BCBF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A4EDADD61DD240E60048BCBF = {
+			isa = PBXGroup;
+			children = (
+				A4EDADE11DD240E60048BCBF /* ScreepsViewer */,
+				A4EDADF61DD240E60048BCBF /* ScreepsViewerUITests */,
+				A4EDADE01DD240E60048BCBF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A4EDADE01DD240E60048BCBF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A4EDADDF1DD240E60048BCBF /* ScreepsViewer.app */,
+				A4EDADF31DD240E60048BCBF /* ScreepsViewerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A4EDADE11DD240E60048BCBF /* ScreepsViewer */ = {
+			isa = PBXGroup;
+			children = (
+				A4EDADE21DD240E60048BCBF /* AppDelegate.swift */,
+				A4EDADE41DD240E60048BCBF /* ViewController.swift */,
+				A4EDADE61DD240E60048BCBF /* Main.storyboard */,
+				A4EDADE91DD240E60048BCBF /* Assets.xcassets */,
+				A4EDADEB1DD240E60048BCBF /* LaunchScreen.storyboard */,
+				A4EDADEE1DD240E60048BCBF /* Info.plist */,
+			);
+			path = ScreepsViewer;
+			sourceTree = "<group>";
+		};
+		A4EDADF61DD240E60048BCBF /* ScreepsViewerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A4EDADF71DD240E60048BCBF /* ScreepsViewerUITests.swift */,
+				A4EDADF91DD240E60048BCBF /* Info.plist */,
+			);
+			path = ScreepsViewerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A4EDADDE1DD240E60048BCBF /* ScreepsViewer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4EDADFC1DD240E60048BCBF /* Build configuration list for PBXNativeTarget "ScreepsViewer" */;
+			buildPhases = (
+				A4EDADDB1DD240E60048BCBF /* Sources */,
+				A4EDADDC1DD240E60048BCBF /* Frameworks */,
+				A4EDADDD1DD240E60048BCBF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ScreepsViewer;
+			productName = ScreepsViewer;
+			productReference = A4EDADDF1DD240E60048BCBF /* ScreepsViewer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A4EDADF21DD240E60048BCBF /* ScreepsViewerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4EDADFF1DD240E60048BCBF /* Build configuration list for PBXNativeTarget "ScreepsViewerUITests" */;
+			buildPhases = (
+				A4EDADEF1DD240E60048BCBF /* Sources */,
+				A4EDADF01DD240E60048BCBF /* Frameworks */,
+				A4EDADF11DD240E60048BCBF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A4EDADF51DD240E60048BCBF /* PBXTargetDependency */,
+			);
+			name = ScreepsViewerUITests;
+			productName = ScreepsViewerUITests;
+			productReference = A4EDADF31DD240E60048BCBF /* ScreepsViewerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A4EDADD71DD240E60048BCBF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Jean-Christophe Libbrecht";
+				TargetAttributes = {
+					A4EDADDE1DD240E60048BCBF = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 3VY899RQ89;
+						ProvisioningStyle = Automatic;
+					};
+					A4EDADF21DD240E60048BCBF = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 3VY899RQ89;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A4EDADDE1DD240E60048BCBF;
+					};
+				};
+			};
+			buildConfigurationList = A4EDADDA1DD240E60048BCBF /* Build configuration list for PBXProject "ScreepsViewer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A4EDADD61DD240E60048BCBF;
+			productRefGroup = A4EDADE01DD240E60048BCBF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A4EDADDE1DD240E60048BCBF /* ScreepsViewer */,
+				A4EDADF21DD240E60048BCBF /* ScreepsViewerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A4EDADDD1DD240E60048BCBF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4EDADED1DD240E60048BCBF /* LaunchScreen.storyboard in Resources */,
+				A4EDADEA1DD240E60048BCBF /* Assets.xcassets in Resources */,
+				A4EDADE81DD240E60048BCBF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4EDADF11DD240E60048BCBF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A4EDADDB1DD240E60048BCBF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4EDADE51DD240E60048BCBF /* ViewController.swift in Sources */,
+				A4EDADE31DD240E60048BCBF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4EDADEF1DD240E60048BCBF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4EDADF81DD240E60048BCBF /* ScreepsViewerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A4EDADF51DD240E60048BCBF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A4EDADDE1DD240E60048BCBF /* ScreepsViewer */;
+			targetProxy = A4EDADF41DD240E60048BCBF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A4EDADE61DD240E60048BCBF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A4EDADE71DD240E60048BCBF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A4EDADEB1DD240E60048BCBF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A4EDADEC1DD240E60048BCBF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A4EDADFA1DD240E60048BCBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A4EDADFB1DD240E60048BCBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A4EDADFD1DD240E60048BCBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3VY899RQ89;
+				INFOPLIST_FILE = ScreepsViewer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = be.libjch.ScreepsViewer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		A4EDADFE1DD240E60048BCBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3VY899RQ89;
+				INFOPLIST_FILE = ScreepsViewer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = be.libjch.ScreepsViewer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		A4EDAE001DD240E60048BCBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 3VY899RQ89;
+				INFOPLIST_FILE = ScreepsViewerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = be.libjch.ScreepsViewerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = ScreepsViewer;
+			};
+			name = Debug;
+		};
+		A4EDAE011DD240E60048BCBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 3VY899RQ89;
+				INFOPLIST_FILE = ScreepsViewerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = be.libjch.ScreepsViewerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = ScreepsViewer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A4EDADDA1DD240E60048BCBF /* Build configuration list for PBXProject "ScreepsViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4EDADFA1DD240E60048BCBF /* Debug */,
+				A4EDADFB1DD240E60048BCBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4EDADFC1DD240E60048BCBF /* Build configuration list for PBXNativeTarget "ScreepsViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4EDADFD1DD240E60048BCBF /* Debug */,
+				A4EDADFE1DD240E60048BCBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A4EDADFF1DD240E60048BCBF /* Build configuration list for PBXNativeTarget "ScreepsViewerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4EDAE001DD240E60048BCBF /* Debug */,
+				A4EDAE011DD240E60048BCBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A4EDADD71DD240E60048BCBF /* Project object */;
+}
