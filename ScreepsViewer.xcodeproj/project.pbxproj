@@ -10,6 +10,7 @@
 		4E07EFB044CA4D1B5FC5AAAE /* Pods_ScreepsViewer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF2B9509F850552AF2FB4510 /* Pods_ScreepsViewer.framework */; };
 		51D92173F2D5E3CE6A8760E3 /* Pods_ScreepsViewerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 361CD9BBBD1F18BC593A634F /* Pods_ScreepsViewerUITests.framework */; };
 		A4A689031DD247CA004F7E56 /* Keys.plist in Resources */ = {isa = PBXBuildFile; fileRef = A4A689021DD247CA004F7E56 /* Keys.plist */; };
+		A4A689051DD248A6004F7E56 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = A4A689041DD248A6004F7E56 /* .gitignore */; };
 		A4EDADE31DD240E60048BCBF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4EDADE21DD240E60048BCBF /* AppDelegate.swift */; };
 		A4EDADE51DD240E60048BCBF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4EDADE41DD240E60048BCBF /* ViewController.swift */; };
 		A4EDADE81DD240E60048BCBF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4EDADE61DD240E60048BCBF /* Main.storyboard */; };
@@ -33,6 +34,7 @@
 		361CD9BBBD1F18BC593A634F /* Pods_ScreepsViewerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ScreepsViewerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		478DFB53A6CF5FF65558F660 /* Pods-ScreepsViewerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScreepsViewerUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ScreepsViewerUITests/Pods-ScreepsViewerUITests.release.xcconfig"; sourceTree = "<group>"; };
 		A4A689021DD247CA004F7E56 /* Keys.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Keys.plist; sourceTree = "<group>"; };
+		A4A689041DD248A6004F7E56 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		A4EDADDF1DD240E60048BCBF /* ScreepsViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScreepsViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4EDADE21DD240E60048BCBF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A4EDADE41DD240E60048BCBF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -82,6 +84,7 @@
 			isa = PBXGroup;
 			children = (
 				A4EDAE021DD241A50048BCBF /* Podfile */,
+				A4A689041DD248A6004F7E56 /* .gitignore */,
 				A4EDADE11DD240E60048BCBF /* ScreepsViewer */,
 				A4EDADF61DD240E60048BCBF /* ScreepsViewerUITests */,
 				A4EDADE01DD240E60048BCBF /* Products */,
@@ -224,6 +227,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4A689051DD248A6004F7E56 /* .gitignore in Resources */,
 				A4A689031DD247CA004F7E56 /* Keys.plist in Resources */,
 				A4EDADED1DD240E60048BCBF /* LaunchScreen.storyboard in Resources */,
 				A4EDADEA1DD240E60048BCBF /* Assets.xcassets in Resources */,
